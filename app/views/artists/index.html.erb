@@ -1,5 +1,5 @@
 <ul>
   <% Artist.all.each do |p| %>
-    <li><%= link_to p.title, song_path(p) %></li>
+    <li><%= link_to p.name, artist_path(p) %></li>
   <% end %>
 </ul>
