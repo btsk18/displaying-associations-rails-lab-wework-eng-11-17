@@ -1,6 +1,6 @@
 <ul>
   <% Song.all.each do |p| %>
     <li><%= "#{p.artist.name - song.title}" %></li>
-    <li><%= link_to p.name, artist_path(p) %></li>
+    <!-- <li><%= link_to p.name, artist_path(p) %></li> -->
   <% end %>
 </ul>
